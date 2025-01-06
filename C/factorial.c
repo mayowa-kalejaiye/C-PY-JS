@@ -1,3 +1,8 @@
+/*Factorial Program:
+The factorial function uses a for loop to multiply numbers from 1 to num.
+
+The main function handles user input and checks if the number is non-negative.*/
+
 #include <stdio.h>
 
 // Function to calculate factorial

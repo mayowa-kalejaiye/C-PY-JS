@@ -1,0 +1,40 @@
+# Ignore executable files
+*.exe
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore history files
+.history/
+
+# Ignore object files and other temporary files
+*.o
+*.obj
+*.dll
+*.so
+*.dylib
+
+# Ignore compiled static libraries
+*.lib
+*.a
+
+# Ignore compiled dynamic libraries
+*.dll
+*.dylib
+*.so
+
+# Ignore debug files
+*.pdb
+
+# Ignore temporary files
+*.tmp
+*.log
+*.bak
+*.swp
+
+# Ignore build directories
+/build/
+/out/
+/bin/
+/Debug/
+/Release/

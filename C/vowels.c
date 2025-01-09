@@ -1,11 +1,15 @@
 #include <stdio.h>
 #include <string.h> // For strlen()
+#include <ctype.h>  // For tolower()
 
 // Function to count vowels in a string
 int countVowels(char text[]) {
     int count = 0;
     for (int i = 0; i < strlen(text); i++) {
+
+        // Convert to lowercase for easier comparison
         char ch = tolower(text[i]); 
+
         if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
             count++;
         }

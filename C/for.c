@@ -62,7 +62,8 @@ void nestedLoop() {
  */
 void calculateTotalCost() {
     // Array to store the prices of items in the shopping cart
-    float prices[] = {10.50, 25.75, 15.00, 30.25, 5.99};
+    float prices[] = 
+    {10.50, 25.75, 15.00, 30.25, 5.99};
 
     // Calculate the number of items in the array
     int numItems = sizeof(prices) / sizeof(prices[0]);

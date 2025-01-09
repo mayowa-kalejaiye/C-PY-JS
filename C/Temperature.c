@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 // Function to print Fahrenheit-Celsius table
-void fahrenheitToCelsius(int lower, int upper, int step) {
+void *fahrenheitToCelsius(int lower, int upper, int step) {
     float celsius, fahr;
 
     printf("Fahrenheit Celsius\n");
@@ -20,4 +20,3 @@ int main() {
 
     return 0;
 }
-

@@ -3,7 +3,9 @@
 // Pointers
 // Pointers are variables that store memory addresses.
 int main() {
-    int number = 42;
+    int number;
+    printf("Enter a number: ");
+    scanf("%d", &number);
     int *ptr = &number; // ptr stores the address of number 
 
     printf("Value of number: %d\n", number);

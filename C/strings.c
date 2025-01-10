@@ -4,7 +4,7 @@
 What are Strings?
 Strings are arrays of characters terminated by a null character (\0).
 */
-
+deep
 int main() {
     char name[] = "Alice";
 
